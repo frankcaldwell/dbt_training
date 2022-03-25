@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: training_db_frankc
+    schema: stripe
+    tables:
+      - name: payment    
